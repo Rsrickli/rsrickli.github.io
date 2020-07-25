@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+}
+
+.eu {
+    background-color: #737373;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms;
+}
+
+.eu h1 {
+    font-size: 32pt;
+    margin-bottom: 20px;
+}
+
+.eu p {
+    font-size: 15pt;
+    margin-bottom: 50px;
+}
+
+.eu a {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+    margin: 30px 30px 30px 0;
+    padding: 10px;
+    font-size: 20pt;
+    text-decoration: none;
+    color: #333;
+}
+
+.eu a:hover {
+    transition: all 200ms;
+    box-shadow: #262626 3px 3px 2px;
+}
+
+.portfolio {
+    transition: all 400ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .title {
+    margin: 20px;
+    font-size: 36pt;
+    padding: 0 150px;
+}
+
+.card {
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    max-height: 500px;
+    margin: 30px;
+    padding: 5px;
+}
+
+.card h1 {
+    font-size: 20pt;
+}
+
+.card i {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .description {
+    text-align: center;
+    flex-direction: column;
+}
+
+.card p {
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 11pt;
+}
+
+.card .description {
+    margin: 20px 0;
+}
+
+.card .description a {
+    text-align: center;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card .description a:hover {
+    transition: all 200ms;
+    background-color: #BFBFBF;
+    color: #222;
+}
